@@ -64,6 +64,18 @@ class Admin extends CI_Controller {
         $this->load->view('admin/home');
     }
 
+    public function sub_admin()
+    {
+        $data['add'] = 'Add Sub Admin';
+        $this->load->view('admin/people/manage',$data);
+    }
+
+    public function data_logger()
+    {
+        $data['add'] = 'Add Data Logger';
+        $this->load->view('admin/people/manage' , $data);
+    }
+
 
 
 }
