@@ -111,10 +111,10 @@
             <h3>Welcome to PHP Point Of Sale, click a module below to get started!</h3>
             <ul class="quick-actions">
                 <li   >
-                    <a class="right" href="<?php echo base_url();?>index.php/customers">	<i class="text-info fa fa-group left fa "></i> Customers</a>
+                    <a class="right" href="<?php echo base_url();?>index.php/admin/sub_admin">	<i class="text-info fa fa-group left fa "></i> Sub Admins</a>
                 </li>
                 <li   >
-                    <a class="right" href="<?php echo base_url();?>index.php/items">	<i class="text-info fa fa-table left fa "></i> Items</a>
+                    <a class="right" href="<?php echo base_url();?>index.php/admin/data_logger">	<i class="text-info fa fa-table left fa "></i> Data Loggers</a>
                 </li>
                 <li   >
                     <a class="right" href="<?php echo base_url();?>index.php/suppliers">	<i class="text-info fa fa-download left fa "></i> Suppliers</a>
